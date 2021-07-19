@@ -27,7 +27,7 @@ function set(){
 
 
 
-firebase.auth().signInWithEmailAndPassword("operations02@jetsonsrobotics.com", "abc@abc")
+firebase.auth().signInWithEmailAndPassword(<email>, <password>)
 .then((userCredential) => {
   // Signed in
   var user = userCredential.user;
